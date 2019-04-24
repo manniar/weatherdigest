@@ -87,7 +87,7 @@ class DigestService {
 	}
 
 	String[] getLocations() {
-		return digestMap.keySet() as String[]
+		return locations as String[]
 	}
 
 	Collection<WeatherDigest> getDigests() {
